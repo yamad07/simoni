@@ -10,8 +10,8 @@ class Trainer(object):
     def __init__(self,
             models: Dict[str, Model],
             optimizers: Dict[str, torch.optim.Optimizer],
-            verbose: bool,
-            save_model_path : str ='./models',
+            verbose: bool = False,
+            save_model_path : str = './models',
             save_model_interval: int = 10
             ):
 
