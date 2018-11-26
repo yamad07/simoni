@@ -1,8 +1,8 @@
-from setuptools import setup, find_packages
+from distutils.core import setup
 
-setup(name='somoni',
+setup(
+        name='simoni',
         version='0.1',
+        packages=['simoni.training', 'simoni', 'simoni.models'],
         description='Training machine learning more easiler',
-        author='Yusuke Yamada',
-        packages=find_packages()
         )
